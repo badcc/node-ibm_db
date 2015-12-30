@@ -12,9 +12,7 @@
 	  'include_dirs': [
         "<!(node -e \"require('nan')\")"
       ],
-      'defines' : [
-        'UNICODE'
-      ],
+      'defines' : [],
 	"variables": {
 		# Set the linker location, no extra linking needed, just link backwards one directory
 		"ORIGIN_LIB_PATH%": "$$ORIGIN/../../installer/clidriver/lib",
